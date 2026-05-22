@@ -1,0 +1,98 @@
+{
+  "library": [
+    {
+      "id": "book-001",
+      "title": "Quantitative Forensic Auditing: Theory & Mathematical Proofs",
+      "author": "Dr. Ronald V. Vance",
+      "year": "2025",
+      "category": "Forensic Auditing",
+      "summary": "An academic volume describing rigorous mathematical models for detecting sophisticated corporate arbitrage and transaction discrepancies, including advanced applications of Benford's Law and spectral entropy.",
+      "spineText": "FORENSIC AUDITING",
+      "telemetry": "V.08-QFA",
+      "publisher": "Academic Integrity Press",
+      "pages": "520",
+      "isbn": "978-3-16-148410-0"
+    },
+    {
+      "id": "book-002",
+      "title": "ESG Reporting Frameworks & Regulatory Calculus",
+      "author": "Elena Rostova, CFA",
+      "year": "2026",
+      "category": "ESG Reporting",
+      "summary": "A comprehensive textbook detailing the statistical methodologies required to convert ecological risks and societal impacts into standard audit-grade compliance reports with absolute mathematical alignment.",
+      "spineText": "ESG CALCULUS",
+      "telemetry": "E.12-ESG",
+      "publisher": "Veritas Publishing",
+      "pages": "412",
+      "isbn": "978-0-12-345678-9"
+    },
+    {
+      "id": "book-003",
+      "title": "Working Capital Optimization & Capital Allocation Vectors",
+      "author": "Marcus Aurelius Vance",
+      "year": "2024",
+      "category": "Working Capital",
+      "summary": "A deep-dive manual outlining modern liquidity frameworks, optimizing inventory and accounts receivable turnover through vector calculus and statistical control charts.",
+      "spineText": "CAPITAL OPTIMIZATION",
+      "telemetry": "W.03-WCM",
+      "publisher": "Antigravity Financial Press",
+      "pages": "378",
+      "isbn": "978-1-23-456789-0"
+    },
+    {
+      "id": "book-004",
+      "title": "Statistical Modeling of Corporate Financial Discrepancies",
+      "author": "Prof. Jean-Marc L'Ouverture",
+      "year": "2025",
+      "category": "Mathematical Compliance",
+      "summary": "An elite mathematical analysis on detecting non-linear anomalies in multi-layered corporate ledgers through stochastic calculus and algorithmic validation routines.",
+      "spineText": "FINANCIAL ANOMALIES",
+      "telemetry": "M.05-SMC",
+      "publisher": "Sorbonne Press",
+      "pages": "604",
+      "isbn": "978-9-87-654321-0"
+    }
+  ],
+  "times": [
+    {
+      "id": "art-001",
+      "title": "Mathematical Convergence in Forensic Auditing Frameworks",
+      "category": "Forensic Auditing",
+      "date": "May 15, 2026",
+      "author": "Dr. Ronald V. Vance",
+      "readTime": "6 min read",
+      "excerpt": "A deep analysis of how advanced probability distributions and statistical entropy algorithms are redefining how financial investigators detect non-linear ledger anomalies.",
+      "content": "<p>In modern corporate auditing, traditional sampling methods are no longer sufficient to verify the structural integrity of complex financial ledgers. As entities transact across borders using high-speed algorithmic networks, transaction ledgers grow exponentially. The identification of fraudulent patterns requires an evolution toward <strong>absolute mathematical compliance</strong>.</p><p>Forensic auditing is transitioning from retroactive sample-testing to real-time spectral analysis of financial datasets. At Auditing Central, we utilize a combination of Benford's Law, Shannon Entropy, and statistical anomaly detection to identify transactions that deviate from organic probability curves.</p><blockquote>\"True financial integrity is not a matter of random checks, but a state of continuous mathematical proof.\"</blockquote><p>Consider Benford's Law, which states that the leading digit, <i>d</i> (where <i>d</i> ∈ {1, ..., 9}), in many naturally occurring collections of numbers occurs with a probability proportional to log<sub>10</sub>(1 + 1/<i>d</i>). Financial statements that deviate from this logarithmic curve are statistically flagged. The table below represents the standard digit distribution compared to an audited entity exhibiting systemic manipulation:</p><table style='width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; border: 1px solid rgba(255,255,255,0.08);'><thead style='background: rgba(255,255,255,0.02);'><tr><th style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08);'>Digit (d)</th><th style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08);'>Theoretical % (Benford)</th><th style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08);'>Anomalous Company %</th><th style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08);'>Deviation Flag</th></tr></thead><tbody><tr><td style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08);'>1</td><td style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08);'>30.1%</td><td style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08);'>14.5%</td><td style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08); color: #f87171;'>Critical Under-representation</td></tr><tr><td style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08);'>5</td><td style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08);'>7.9%</td><td style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08);'>24.1%</td><td style='padding: 0.5rem; text-align: center; border: 1px solid rgba(255,255,255,0.08); color: #f87171;'>Critical Spike (Threshold Over-approval)</td></tr></tbody></table><p>By plotting these metrics and applying Chi-Square goodness-of-fit tests, our teams detect hidden transactions, double-ledger structures, and systemic anomalies with mathematical precision, ensuring corporate transparency and total regulatory alignment.</p>"
+    },
+    {
+      "id": "art-002",
+      "title": "Optimizing Working Capital Under Modern Monetary Friction",
+      "category": "Working Capital",
+      "date": "April 29, 2026",
+      "author": "Marcus Aurelius Vance",
+      "readTime": "5 min read",
+      "excerpt": "A deep dive into inventory and accounts receivable turnover metrics, detailing capital allocation models for multi-national supply chains.",
+      "content": "<p>In an environment marked by higher capital costs and supply-chain fragmentation, the traditional buffers of working capital have become highly inefficient. Firms that lock up excessive liquid assets in raw inventory or let accounts receivable languish without structured incentives are incurring high opportunity costs.</p><p>Working Capital Management (WCM) must be treated as a dynamic balancing act. The cash conversion cycle (CCC) is our ultimate diagnostic tool:</p><p style='font-family: monospace; background: rgba(0,0,0,0.2); padding: 0.75rem; border-radius: 4px; text-align: center; border: 1px solid rgba(255,255,255,0.05); color: #38bdf8;'>CCC = Days Inventory Outstanding (DIO) + Days Sales Outstanding (DSO) - Days Payable Outstanding (DPO)</p<p>At Auditing Central, we advise global firms to leverage algorithmic modeling to optimize each leg of this cycle. By structuring dynamic discounts for receivables and employing statistical inventory triggers, firms can release millions in trapped liquidity. Our recent audits of manufacturing enterprises in São Paulo and Beirut have demonstrated that a mathematically refined CCC can improve overall return on capital employed (ROCE) by up to 2.4%, strengthening the firm against localized supply shocks.</p>"
+    },
+    {
+      "id": "art-003",
+      "title": "The Mathematical Standardization of Global ESG Disclosure",
+      "category": "ESG Reporting",
+      "date": "March 18, 2026",
+      "author": "Elena Rostova, CFA",
+      "readTime": "7 min read",
+      "excerpt": "Analyzing the convergence of international ESG frameworks and the development of quantitative auditing methods for non-financial metrics.",
+      "content": "<p>Environmental, Social, and Governance (ESG) criteria are no longer subjective marketing points. They have solidified into mandatory compliance metrics that carry structural weight on corporate credit profiles and investment allocations. However, the core challenge remains standardization.</p><p>How do we audit carbon offset integrity or supply-chain equity indicators with the same absolute precision we apply to double-entry bookkeeping? The answer lies in quantitative ESG accounting.</p><p>We have designed a proprietary ESG matrix that translates non-financial qualitative factors into audit-grade numeric vectors. By establishing verifiable data streams for carbon output per production unit, water consumption coefficients, and employee diversity indices, we provide stakeholders with a crystal-clear, verifiable compliance telemetry. This eliminates 'greenwashing' and ensures that ESG disclosures conform to the rigorous accounting standards demanded by international regulatory bodies.</p>"
+    },
+    {
+      "id": "art-004",
+      "title": "Algorithmic Arbitrage vs. Absolute Compliance",
+      "category": "Mathematical Compliance",
+      "date": "February 11, 2026",
+      "author": "Prof. Jean-Marc L'Ouverture",
+      "readTime": "8 min read",
+      "excerpt": "A study on the future of global financial supervision, looking at how automated auditing systems are responding to algorithmic high-frequency trading.",
+      "content": "<p>As transaction execution speeds compress into microseconds, manual oversight becomes irrelevant. Regulatory compliance must adapt to the pace of algorithmic systems. Algorithmic arbitrage, while providing liquidity, also introduces structural flash risks that can destabilize corporate balance sheets within seconds.</p><p>The solution is not more regulations, but automated, algorithmic auditing. At Auditing Central, we build real-time transaction scanning protocols. These continuous audit systems interface directly with enterprise databases via secure APIs, analyzing transaction anomalies as they happen. By setting up mathematical boundaries and real-time statistical triggers, our global network helps corporations intercept structural anomalies before they result in catastrophic regulatory failures.</p>"
+    }
+  ]
+}

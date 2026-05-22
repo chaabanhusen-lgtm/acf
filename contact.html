@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Auditing Central - Engage our international forensic auditing and compliance teams across London, New York, Dubai, Beirut, Kinshasa, and São Paulo.">
+    <title>Contact Auditing Central | International Branch Network & Audit Requests</title>
+    <!-- Master CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- STICKY GLASSMORPHIC HEADER -->
+    <header>
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo-container" id="brand-logo">
+                <div class="logo-mark">A</div>
+                <div class="logo-text">Auditing Central<span>Project Antigravity</span></div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" id="link-home">Dashboard</a></li>
+                    <li><a href="library.html" id="link-library">Library</a></li>
+                    <li><a href="times.html" id="link-times">The Times</a></li>
+                    <li><a href="contact.html" class="active" id="link-contact">Contact</a></li>
+                </ul>
+                <div class="clock-telemetry" id="utc-clock">
+                    <span class="clock-dot"></span>
+                    <span id="utc-clock-val">TELEMETRY INITIALIZING...</span>
+                </div>
+                <button class="menu-toggle" id="hamburger-btn" aria-label="Toggle Menu Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="main-content">
+        
+        <section class="section" id="contact-portal">
+            <div class="container">
+                <div class="section-header reveal-element">
+                    <span class="section-label">Global Communications</span>
+                    <h2>Secure Inbound Vectors</h2>
+                    <p>Request forensic analysis, review compliance vectors, or establish standard advisory channels across our international branch network.</p>
+                </div>
+                
+                <div class="contact-grid">
+                    
+                    <!-- 1. Left: Secure Form Request Portal -->
+                    <div class="secure-form-container reveal-element" id="form-container">
+                        <div class="form-telemetry-header">
+                            <span class="form-telemetry-title">Audit Log Initiation</span>
+                            <span class="form-badge-security">TLS SHA-256 ENCRYPTED</span>
+                        </div>
+                        
+                        <form id="secure-audit-form" novalidate>
+                            <div class="form-group">
+                                <label class="form-label" for="corp-name">Client Corporation Name</label>
+                                <input type="text" id="corp-name" class="form-input" placeholder="e.g. Vance Global Enterprises" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="corp-email">Lead Auditor / Representative Email</label>
+                                <input type="email" id="corp-email" class="form-input" placeholder="e.g. auditor@vance.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="audit-hub">Target Compliance Hub</label>
+                                <select id="audit-hub" class="form-select" required>
+                                    <option value="" disabled selected>Select localized office...</option>
+                                    <option value="london">London HQ (United Kingdom)</option>
+                                    <option value="newyork">New York Hub (United States)</option>
+                                    <option value="dubai">Dubai Hub (U.A.E.)</option>
+                                    <option value="beirut">Beirut Compliance (Lebanon)</option>
+                                    <option value="kinshasa">Kinshasa Operations (D.R. Congo)</option>
+                                    <option value="saopaulo">São Paulo Office (Brazil)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="audit-type">Compliance Specialty</label>
+                                <select id="audit-type" class="form-select" required>
+                                    <option value="" disabled selected>Select specialty discipline...</option>
+                                    <option value="forensic">Forensic Ledger Reconstruction</option>
+                                    <option value="working-capital">Working Capital Optimization</option>
+                                    <option value="esg">ESG Compliance Verification</option>
+                                    <option value="absolute">Continuous Mathematical Auditing</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="audit-details">Scope of Quantitative Inquiry</label>
+                                <textarea id="audit-details" class="form-textarea" placeholder="Detail the volumetric ledger size, currency vectors, and compliance goals..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;" id="form-submit-btn">
+                                Transmit Encrypted Proposal
+                            </button>
+
+                            <div id="form-feedback" class="form-feedback-msg"></div>
+                        </form>
+                    </div>
+
+                    <!-- 2. Right: Offices Directory Grid -->
+                    <div class="offices-directory reveal-element" id="branches-list">
+                        
+                        <!-- London -->
+                        <div class="office-node-card" id="london">
+                            <div class="office-header">
+                                <h3>London HQ</h3>
+                                <span class="office-local-status" id="status-london">Calculating...</span>
+                            </div>
+                            <div class="office-node-clock" id="clock-london">00:00:00</div>
+                            <div class="office-node-detail"><strong>Specialty:</strong> Forensic Mathematics</div>
+                            <div class="office-node-detail"><strong>Endpoint:</strong> lon.compliance@auditingcentral.com</div>
+                            <div class="office-node-detail"><strong>Address:</strong> 12 Finchley Quadrant, London EC2M 4AA</div>
+                        </div>
+
+                        <!-- New York -->
+                        <div class="office-node-card" id="newyork">
+                            <div class="office-header">
+                                <h3>New York</h3>
+                                <span class="office-local-status" id="status-newyork">Calculating...</span>
+                            </div>
+                            <div class="office-node-clock" id="clock-newyork">00:00:00</div>
+                            <div class="office-node-detail"><strong>Specialty:</strong> Working Capital Optimization</div>
+                            <div class="office-node-detail"><strong>Endpoint:</strong> ny.compliance@auditingcentral.com</div>
+                            <div class="office-node-detail"><strong>Address:</strong> 42 Pine Street, Suite 1800, New York NY 10005</div>
+                        </div>
+
+                        <!-- Dubai -->
+                        <div class="office-node-card" id="dubai">
+                            <div class="office-header">
+                                <h3>Dubai</h3>
+                                <span class="office-local-status" id="status-dubai">Calculating...</span>
+                            </div>
+                            <div class="office-node-clock" id="clock-dubai">00:00:00</div>
+                            <div class="office-node-detail"><strong>Specialty:</strong> Sovereign Fund Audits</div>
+                            <div class="office-node-detail"><strong>Endpoint:</strong> dxb.compliance@auditingcentral.com</div>
+                            <div class="office-node-detail"><strong>Address:</strong> Index Tower, level 24, DIFC, Dubai</div>
+                        </div>
+
+                        <!-- Beirut -->
+                        <div class="office-node-card" id="beirut">
+                            <div class="office-header">
+                                <h3>Beirut</h3>
+                                <span class="office-local-status" id="status-beirut">Calculating...</span>
+                            </div>
+                            <div class="office-node-clock" id="clock-beirut">00:00:00</div>
+                            <div class="office-node-detail"><strong>Specialty:</strong> ESG Mathematical Compliance</div>
+                            <div class="office-node-detail"><strong>Endpoint:</strong> bey.compliance@auditingcentral.com</div>
+                            <div class="office-node-detail"><strong>Address:</strong> 14 Riad El Solh, Solidere Central, Beirut</div>
+                        </div>
+
+                        <!-- Kinshasa -->
+                        <div class="office-node-card" id="kinshasa">
+                            <div class="office-header">
+                                <h3>Kinshasa</h3>
+                                <span class="office-local-status" id="status-kinshasa">Calculating...</span>
+                            </div>
+                            <div class="office-node-clock" id="clock-kinshasa">00:00:00</div>
+                            <div class="office-node-detail"><strong>Specialty:</strong> Resource Compliance Vectors</div>
+                            <div class="office-node-detail"><strong>Endpoint:</strong> fih.compliance@auditingcentral.com</div>
+                            <div class="office-node-detail"><strong>Address:</strong> 88 Boulevard du 30 Juin, Kinshasa-Gombe</div>
+                        </div>
+
+                        <!-- São Paulo -->
+                        <div class="office-node-card" id="saopaulo">
+                            <div class="office-header">
+                                <h3>São Paulo</h3>
+                                <span class="office-local-status" id="status-saopaulo">Calculating...</span>
+                            </div>
+                            <div class="office-node-clock" id="clock-saopaulo">00:00:00</div>
+                            <div class="office-node-detail"><strong>Specialty:</strong> Supply-Chain Audit Calculi</div>
+                            <div class="office-node-detail"><strong>Endpoint:</strong> gru.compliance@auditingcentral.com</div>
+                            <div class="office-node-detail"><strong>Address:</strong> Avenida Paulista, 1000 - Bela Vista, São Paulo</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer id="footer-section">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>Auditing Central</h3>
+                <p>Establishing mathematical precision and academic authority in international corporate compliance since 2012.</p>
+                <div class="footer-telemetry">v1.2.6 // Project Antigravity</div>
+            </div>
+            <div class="footer-column">
+                <h4>System Hubs</h4>
+                <ul class="footer-links">
+                    <li><a href="#london">London (HQ)</a></li>
+                    <li><a href="#newyork">New York</a></li>
+                    <li><a href="#dubai">Dubai</a></li>
+                    <li><a href="#beirut">Beirut</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Portals</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="library.html">The Library</a></li>
+                    <li><a href="times.html">Financial Times</a></li>
+                    <li><a href="contact.html">Auditing Requests</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>&copy; 2026 Auditing Central Global Partners. All Rights Reserved.</span>
+            <span>Mathematical Audit Matrix Code: AC-99.997-σ</span>
+        </div>
+    </footer>
+
+    <!-- Global scripts loading -->
+    <script src="main.js"></script>
+    
+    <!-- Local form validator script -->
+    <script>
+        document.getElementById('secure-audit-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const corpName = document.getElementById('corp-name');
+            const corpEmail = document.getElementById('corp-email');
+            const auditHub = document.getElementById('audit-hub');
+            const auditType = document.getElementById('audit-type');
+            const auditDetails = document.getElementById('audit-details');
+            const feedback = document.getElementById('form-feedback');
+
+            // Quick validation checks
+            if(!corpName.value || corpName.value.trim().length < 3) {
+                showFeedback("Invalid Client Corporation name. Must be at least 3 characters.", "feedback-error");
+                corpName.focus();
+                return;
+            }
+            if(!corpEmail.value || !corpEmail.value.includes('@') || corpEmail.value.trim().length < 5) {
+                showFeedback("Invalid Representative Email address.", "feedback-error");
+                corpEmail.focus();
+                return;
+            }
+            if(!auditHub.value) {
+                showFeedback("Please select a target localized hub.", "feedback-error");
+                auditHub.focus();
+                return;
+            }
+            if(!auditType.value) {
+                showFeedback("Please select a compliance specialty.", "feedback-error");
+                auditType.focus();
+                return;
+            }
+            if(!auditDetails.value || auditDetails.value.trim().length < 10) {
+                showFeedback("Inquiry details are too brief. Please supply adequate scope information.", "feedback-error");
+                auditDetails.focus();
+                return;
+            }
+
+            // Success simulation
+            const randomHash = "AC-" + Math.floor(100000 + Math.random() * 900000) + "-" + Math.random().toString(36).substring(2, 6).toUpperCase();
+            
+            feedback.innerHTML = `
+                <strong>Transmission Integrity Verified.</strong><br>
+                Secure packet successfully logged at target hub. <br>
+                <span>Proof Checksum Hash: <code>${randomHash}</code></span><br>
+                <span>Our lead compliance math team will respond within 4 hours.</span>
+            `;
+            feedback.className = "form-feedback-msg feedback-success";
+
+            // Clean inputs
+            document.getElementById('secure-audit-form').reset();
+        });
+
+        function showFeedback(message, className) {
+            const feedback = document.getElementById('form-feedback');
+            feedback.innerHTML = message;
+            feedback.className = "form-feedback-msg " + className;
+        }
+    </script>
+</body>
+</html>

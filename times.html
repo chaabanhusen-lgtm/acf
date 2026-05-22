@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Auditing Central Times - Stay up to date with forensic auditing disclosures, global working capital trends, and international ESG regulatory calculus.">
+    <title>The Times | Auditing Central Financial Journal & News</title>
+    <!-- Master CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- STICKY GLASSMORPHIC HEADER -->
+    <header>
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo-container" id="brand-logo">
+                <div class="logo-mark">A</div>
+                <div class="logo-text">Auditing Central<span>Project Antigravity</span></div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" id="link-home">Dashboard</a></li>
+                    <li><a href="library.html" id="link-library">Library</a></li>
+                    <li><a href="times.html" class="active" id="link-times">The Times</a></li>
+                    <li><a href="contact.html" id="link-contact">Contact</a></li>
+                </ul>
+                <div class="clock-telemetry" id="utc-clock">
+                    <span class="clock-dot"></span>
+                    <span id="utc-clock-val">TELEMETRY INITIALIZING...</span>
+                </div>
+                <button class="menu-toggle" id="hamburger-btn" aria-label="Toggle Menu Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="main-content">
+        
+        <section class="section" id="financial-times">
+            <div class="container">
+                <div class="section-header reveal-element">
+                    <span class="section-label">Academic Intelligence</span>
+                    <h2>The Auditing Central Times</h2>
+                    <p>Quantitative analyses, forensic auditing breakthroughs, and corporate compliance updates curated by our lead analytical groups.</p>
+                </div>
+
+                <!-- CMS TOOLBAR (Search & Category tags) -->
+                <div class="cms-toolbar reveal-element" id="times-toolbar">
+                    <div class="search-wrapper">
+                        <svg class="search-icon-svg" viewBox="0 0 24 24">
+                            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                        </svg>
+                        <input type="text" id="search-input" class="search-input" placeholder="Search articles by title, author, key compliance phrases...">
+                    </div>
+
+                    <div class="filter-tags" id="filter-tags">
+                        <button class="tag active" data-category="all">All Articles</button>
+                        <button class="tag" data-category="forensic">Forensic Auditing</button>
+                        <button class="tag" data-category="esg">ESG Reporting</button>
+                        <button class="tag" data-category="working">Working Capital</button>
+                        <button class="tag" data-category="compliance">Compliance</button>
+                    </div>
+                </div>
+
+                <!-- DYNAMIC JOURNAL ARTICLES GRID (cms.js will populate this) -->
+                <div class="cms-grid" id="times-grid">
+                    <!-- Loading state indicator -->
+                    <div class="cms-grid-empty">Compiling mathematical article logs...</div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- SLIDEOUT EDITORIAL READING DRAWER MODAL -->
+    <div class="reading-modal" id="reading-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content-panel" id="modal-content-panel">
+            <div class="modal-header">
+                <div class="modal-header-meta">JOURNAL TELEMETRY // <span>FORENSIC AUDITING</span></div>
+                <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Reading Drawer">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h2>Article Title Loading...</h2>
+                <div class="modal-article-byline" id="modal-byline">Published May 15, 2026 • Authored by Dr. Ronald V. Vance</div>
+                <div class="modal-real-content" id="modal-real-content">
+                    <!-- Dynamic rich content (including math tables/quotes) will compile here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer id="footer-section">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>Auditing Central</h3>
+                <p>Establishing mathematical precision and academic authority in international corporate compliance since 2012.</p>
+                <div class="footer-telemetry">v1.2.6 // Project Antigravity</div>
+            </div>
+            <div class="footer-column">
+                <h4>System Hubs</h4>
+                <ul class="footer-links">
+                    <li><a href="contact.html#london">London (HQ)</a></li>
+                    <li><a href="contact.html#newyork">New York</a></li>
+                    <li><a href="contact.html#dubai">Dubai</a></li>
+                    <li><a href="contact.html#beirut">Beirut</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Portals</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="library.html">The Library</a></li>
+                    <li><a href="times.html">Financial Times</a></li>
+                    <li><a href="contact.html">Auditing Requests</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>&copy; 2026 Auditing Central Global Partners. All Rights Reserved.</span>
+            <span>Mathematical Audit Matrix Code: AC-99.997-σ</span>
+        </div>
+    </footer>
+
+    <!-- Global scripts loading -->
+    <script src="main.js"></script>
+    <script src="cms.js"></script>
+</body>
+</html>
